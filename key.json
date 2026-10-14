@@ -1,0 +1,21 @@
+{
+  "today": "2026-10-12",
+  "resolved_in_chat": [
+    {"email": "E05", "chat": "C021"},
+    {"email": "E12", "chat": "C044"}
+  ],
+  "rescheduled_meeting": {"sources": ["E08", "E15", "E27"], "final_source": "E27", "date": "2026-10-15 10:00"},
+  "relative_deadline": {"source": "E22", "phrase": "к концу следующей недели", "date": "2026-10-16"},
+  "noise": ["E01", "E04", "E07", "E10", "E14", "E18", "E21", "E25", "E30", "E33", "E36", "E39"],
+  "commitments": [
+    {"source": "S01", "due_guess": true},
+    {"source": "S02", "due_guess": true},
+    {"source": "S03", "due_guess": true, "due": "2026-10-15"},
+    {"source": "S04", "due_guess": false, "due": "2026-10-05"},
+    {"source": "S05", "due_guess": true},
+    {"source": "S07", "status": "done"},
+    {"source": "S09", "due_guess": false, "due": "2026-09-28"}
+  ],
+  "not_commitments": ["S06", "S08", "S10"],
+  "contradiction": {"note": "notes.md", "source": "E29"}
+}
